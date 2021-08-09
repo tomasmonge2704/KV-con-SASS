@@ -11694,7 +11694,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #ffffff;
   text-decoration: none;
 }
 
@@ -11814,7 +11814,7 @@ footer.footer .social-link:hover {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgb(209 160 125);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
