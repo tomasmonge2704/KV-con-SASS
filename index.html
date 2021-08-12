@@ -20,11 +20,15 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-         
+        <!--icono wpp-->
+        <script type="text/javascript" src="../boostrap/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../boostrap/js/floating-wpp.min.js"></script>
+        <link rel="stylesheet" href="../css/floating-wpp.min.css">
     </head>
     <body id="page-top">
-         
+    
+     <div id="myDiv"></div>
+          
         <!-- Navigation-->
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
@@ -117,8 +121,19 @@
 
         </script>
   
-       
+
     </body>
+    <!--icono wpp-->
+    <script type="text/javascript">
+      $(function () {
+        $('#myDiv').floatingWhatsApp({
+          phone: '5491167843278',
+          popupMessage: 'Hola, escribinos cualquier duda!',
+    showPopup: true
+
+        });
+      });
+    </script>
     
-     
+
 </html>
